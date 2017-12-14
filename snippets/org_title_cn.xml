@@ -1,0 +1,8 @@
+  <style:style style:name="OrgTitle" style:family="paragraph" style:parent-style-name="Title">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm"/>
+   <style:text-properties style:font-name="SimSun" fo:font-size="24pt"
+                          style:font-name-asian="SimSun"
+                          style:font-size-asian="24pt"
+                          style:font-name-complex="Tahoma"
+                          style:font-size-complex="SimSun"/>
+  </style:style>

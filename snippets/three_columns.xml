@@ -1,0 +1,5 @@
+<style:style style:name="three_columns" style:family="section">
+ <style:section-properties fo:background-color="#ffffff" style:editable="false">
+  <style:columns fo:column-count="3" fo:column-gap="0.2cm"/>
+ </style:section-properties>
+</style:style>

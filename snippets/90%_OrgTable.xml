@@ -1,0 +1,30 @@
+<style:style style:name="90%_Text_20_body" style:family="paragraph" style:parent-style-name="Text_20_body">
+ <style:text-properties fo:font-size="90%"
+                        style:font-size-asian="90%"
+                        style:font-size-complex="90%"
+                        style:class="text"/>
+</style:style>
+
+<style:style style:name="90%_OrgTableContents" style:family="paragraph" style:parent-style-name="90%_Text_20_body"/>
+<style:style style:name="90%_OrgTableHeading" style:family="paragraph" style:parent-style-name="90%_OrgTableContents" style:class="extra">
+  <style:paragraph-properties fo:text-align="center" style:justify-single-word="false" text:number-lines="false" text:line-number="0"/>
+  <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+</style:style>
+<style:style style:name="90%_OrgTableHeadingLeft" style:family="paragraph" style:parent-style-name="90%_OrgTableHeading">
+  <style:paragraph-properties fo:text-align="left" style:justify-single-word="false"/>
+</style:style>
+<style:style style:name="90%_OrgTableHeadingRight" style:family="paragraph" style:parent-style-name="90%_OrgTableHeading">
+  <style:paragraph-properties fo:text-align="right" style:justify-single-word="false"/>
+</style:style>
+<style:style style:name="90%_OrgTableHeadingCenter" style:family="paragraph" style:parent-style-name="90%_OrgTableHeading">
+  <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+</style:style>
+<style:style style:name="90%_OrgTableContentsLeft" style:family="paragraph" style:parent-style-name="90%_OrgTableContents">
+  <style:paragraph-properties fo:text-align="left" style:justify-single-word="false"/>
+</style:style>
+<style:style style:name="90%_OrgTableContentsRight" style:family="paragraph" style:parent-style-name="90%_OrgTableContents">
+  <style:paragraph-properties fo:text-align="right" style:justify-single-word="false"/>
+</style:style>
+<style:style style:name="90%_OrgTableContentsCenter" style:family="paragraph" style:parent-style-name="90%_OrgTableContents">
+  <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+</style:style>

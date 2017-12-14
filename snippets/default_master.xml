@@ -1,0 +1,21 @@
+  <style:master-page style:name="Standard" style:page-layout-name="Mpm1">
+   <style:footer>
+    <text:p text:style-name="MP1"><text:page-number text:select-page="current"></text:page-number></text:p>
+   </style:footer>
+  </style:master-page>
+  <style:master-page style:name="OrgTitlePage" style:page-layout-name="Mpm2" style:next-style-name="OrgFrontMatterPage"/>
+  <style:master-page style:name="OrgFrontMatterPage" style:page-layout-name="Mpm3">
+   <style:footer>
+    <text:p text:style-name="MP1"><text:page-number text:select-page="current"/></text:p>
+   </style:footer>
+  </style:master-page>
+  <style:master-page style:name="OrgFirstPage" style:page-layout-name="Mpm4" style:next-style-name="OrgPage">
+   <style:footer>
+    <text:p text:style-name="MP1"><text:page-number text:select-page="current"/></text:p>
+   </style:footer>
+  </style:master-page>
+  <style:master-page style:name="OrgPage" style:page-layout-name="Mpm5">
+   <style:footer>
+    <text:p text:style-name="MP1"><text:page-number text:select-page="current"/></text:p>
+   </style:footer>
+  </style:master-page>

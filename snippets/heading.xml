@@ -1,0 +1,14 @@
+  <style:style style:name="Heading" style:family="paragraph" style:parent-style-name="Standard" style:next-style-name="Text_20_body" style:class="text">
+   <style:paragraph-properties fo:margin-top="0.423cm"
+                               fo:margin-bottom="0.212cm"
+                               fo:keep-with-next="always">
+     <style:tab-stops>
+       <style:tab-stop style:position="17cm" style:type="right"/>
+     </style:tab-stops>
+   </style:paragraph-properties>
+   <style:text-properties style:font-name="Arial" fo:font-size="14pt"
+                          style:font-name-asian="SimSun"
+                          style:font-size-asian="14pt"
+                          style:font-name-complex="Tahoma"
+                          style:font-size-complex="14pt"/>
+  </style:style>

@@ -1,0 +1,9 @@
+<!--  List style for Bibliographic entries -->
+<text:list-style style:name="OrgBibliographyList">
+ <text:list-level-style-number text:level="1"
+                               style:num-prefix="["
+                               style:num-suffix="] "
+                               style:num-format="1">
+  <style:list-level-properties text:min-label-width="0.64cm"/>
+ </text:list-level-style-number>
+</text:list-style>

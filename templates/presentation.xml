@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<office:document-styles
+    xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0"
+    xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0"
+    xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0"
+    xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0"
+    xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0"
+    xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0"
+    xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0"
+    xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0"
+    xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0"
+    xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0"
+    xmlns:math="http://www.w3.org/1998/Math/MathML"
+    xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0"
+    xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0"
+    xmlns:ooo="http://openoffice.org/2004/office"
+    xmlns:ooow="http://openoffice.org/2004/writer"
+    xmlns:oooc="http://openoffice.org/2004/calc"
+    xmlns:dom="http://www.w3.org/2001/xml-events"
+    xmlns:rpt="http://openoffice.org/2005/report"
+    xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    xmlns:grddl="http://www.w3.org/2003/g/data-view#"
+    xmlns:officeooo="http://openoffice.org/2009/office"
+    xmlns:tableooo="http://openoffice.org/2009/table"
+    xmlns:drawooo="http://openoffice.org/2010/draw"
+    xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0"
+    xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0"
+    xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0"
+    xmlns:css3t="http://www.w3.org/TR/css3-text/"
+    office:version="1.2">
+
+<office:font-face-decls>
+<default_fonts/>
+
+</office:font-face-decls>
+
+<office:styles>
+<default_defaults/>
+
+  <draw:stroke-dash draw:name="my_rectangle_1"
+                    draw:display-name="my_rectangle_1"
+                    draw:style="rect"
+                    draw:dots1="1"
+                    draw:dots1-length="0.011cm"
+                    draw:dots2="1" draw:dots2-length="0.011cm"
+                    draw:distance="0.011cm"/>
+
+  <style:style style:name="my_title" style:family="paragraph"
+              style:master-page-name="FirstPage"
+              style:class="chapter">
+      <style:paragraph-properties fo:text-align="center"
+                                  fo:margin-top="0cm"
+                                  fo:margin-bottom="0cm"
+                                  style:justify-single-word="false"/>
+      <style:text-properties fo:font-size="18pt"
+                              fo:font-weight="bold"
+                              style:font-size-asian="18pt"
+                              style:font-weight-asian="bold"
+                              style:font-size-complex="18pt"
+                              style:font-weight-complex="bold"/>
+  </style:style>
+
+  <!-- style for table of content -->
+  <style:style style:name="Contents_20_Heading" style:display-name="Contents Heading" style:family="paragraph" style:parent-style-name="Heading" style:class="index">
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-indent="0cm" style:auto-text-indent="false" text:number-lines="false" text:line-number="0"/>
+   <style:text-properties fo:font-size="26pt" fo:font-weight="bold" style:font-size-asian="26pt" style:font-weight-asian="bold" style:font-size-complex="26pt" style:font-weight-complex="bold"/>
+  </style:style>
+
+  <!-- level 1 -->
+  <style:style style:name="Contents_20_1" style:display-name="Contents 1" style:family="paragraph" style:parent-style-name="Index" style:class="index">
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-indent="0cm" style:auto-text-indent="false">
+    <style:tab-stops>
+     <style:tab-stop style:position="17cm" style:type="right" style:leader-style="dotted" style:leader-text="."/>
+    </style:tab-stops>
+   </style:paragraph-properties>
+   <style:text-properties fo:font-size="26pt" fo:font-weight="bold" style:font-size-asian="26pt" style:font-weight-asian="bold" style:font-size-complex="26pt" style:font-weight-complex="bold"/>
+  </style:style>
+
+  <!-- level 2 -->
+  <style:style style:name="Contents_20_2" style:display-name="Contents 2" style:family="paragraph" style:parent-style-name="Index" style:class="index">
+   <style:paragraph-properties fo:margin-left="0.499cm" fo:margin-right="0cm" fo:text-indent="0cm" style:auto-text-indent="false">
+    <style:tab-stops>
+     <style:tab-stop style:position="16.501cm" style:type="right" style:leader-style="dotted" style:leader-text="."/>
+    </style:tab-stops>
+   </style:paragraph-properties>
+   <style:text-properties fo:font-size="26pt" fo:font-weight="bold" style:font-size-asian="26pt" style:font-weight-asian="bold" style:font-size-complex="26pt" style:font-weight-complex="bold"/>
+  </style:style>
+
+<org_title_cn/>
+<list_parens/>
+<90%_OrgTable/>
+<80%_OrgTable/>
+<70%_OrgTable/>
+<60%_OrgTable/>
+<50%_OrgTable/>
+<dummy_fig_margin/>
+
+</office:styles>
+
+<office:automatic-styles>
+
+<default_automatic/>
+
+  <style:style style:name="my_default_footer" style:family="paragraph" style:parent-style-name="Footer">
+    <style:paragraph-properties fo:text-align="end" style:justify-single-word="false"/>
+  </style:style>
+
+  <style:style style:name="my_header_text_1" style:family="text">
+    <style:text-properties fo:color="#ffffff"
+                           fo:font-size="8pt"
+                           fo:font-weight="bold"
+                           style:font-weight-asian="bold"
+                           style:font-weight-complex="bold"/>
+  </style:style>
+
+  <style:style style:name="my_header_decoration_1" style:family="graphic">
+    <style:graphic-properties draw:stroke="none"
+                              draw:stroke-dash="my_rectangle_1"
+                              svg:stroke-width="0cm"
+                              svg:stroke-color="#3465a4"
+                              draw:marker-start=""
+                              draw:marker-start-width="0.199cm"
+                              draw:marker-start-center="false"
+                              draw:marker-end=""
+                              draw:marker-end-width="0.199cm"
+                              draw:marker-end-center="false"
+                              draw:fill="solid"
+                              draw:fill-color="#009900"
+                              draw:textarea-horizontal-align="justify"
+                              draw:textarea-vertical-align="middle"
+                              draw:auto-grow-height="false"
+                              fo:min-height="0.291cm"
+                              fo:min-width="8.102cm"
+                              fo:padding-top="0.131cm"
+                              fo:padding-bottom="0.131cm"
+                              fo:padding-left="0.25cm"
+                              fo:padding-right="0.25cm"
+                              fo:wrap-option="no-wrap"
+                              draw:shadow="hidden"
+                              draw:shadow-offset-x="0.199cm"
+                              draw:shadow-offset-y="0.199cm"
+                              draw:shadow-color="#808080"
+                              style:run-through="foreground"
+                              style:wrap="run-through"
+                              style:number-wrapped-paragraphs="no-limit"
+                              style:vertical-pos="from-top"
+                              style:vertical-rel="paragraph"
+                              style:horizontal-pos="from-left"
+                              style:horizontal-rel="paragraph"
+                              draw:wrap-influence-on-position="once-concurrent"
+                              style:flow-with-text="false"/>
+  </style:style>
+
+  <style:page-layout style:name="my_title_page_layout">
+    <style:page-layout-properties fo:page-width="25.4cm"
+                                  fo:page-height="19.05cm"
+                                  style:print-orientation="landscape"
+                                  fo:margin-top="0cm"
+                                  fo:margin-bottom="0cm"
+                                  fo:margin-left="0cm"
+                                  fo:margin-right="0cm"
+                                  style:writing-mode="lr-tb" >
+    </style:page-layout-properties>
+    <style:header-style/>
+    <style:footer-style/>
+  </style:page-layout>
+
+  <style:page-layout style:name="my_default_pagelayout" style:page-usage="mirrored">
+    <style:page-layout-properties fo:page-width="25.4cm"
+                                  fo:page-height="19.05cm"
+                                  style:num-format="1"
+                                  style:print-orientation="landscape"
+                                  fo:margin-top="0cm"
+                                  fo:margin-bottom="0cm"
+                                  fo:margin-left="0cm"
+                                  fo:margin-right="0cm"
+                                  style:writing-mode="lr-tb"
+                                  style:footnote-max-height="0cm">
+      <style:footnote-sep style:width="0.018cm"
+                          style:distance-before-sep="0.101cm"
+                          style:distance-after-sep="0.101cm"
+                          style:line-style="none"
+                          style:adjustment="left"
+                          style:rel-width="25%"
+                          style:color="#000000"/>
+    </style:page-layout-properties>
+    <style:header-style>
+      <style:header-footer-properties svg:height="0.559cm"
+                                      fo:margin-left="0cm"
+                                      fo:margin-right="0cm"
+                                      fo:margin-bottom="0cm"
+                                      style:shadow="none"
+                                      fo:background-color="#ff3300"
+                                      style:dynamic-spacing="false"
+                                      draw:fill="solid"
+                                      draw:fill-color="#ff3300"
+                                      draw:opacity="100%"/>
+    </style:header-style>
+    <style:footer-style>
+      <style:header-footer-properties fo:min-height="0.6cm"
+                                      fo:margin-left="0cm"
+                                      fo:margin-right="0cm"
+                                      fo:margin-top="0.499cm"
+                                      style:dynamic-spacing="false"/>
+    </style:footer-style>
+  </style:page-layout>
+
+</office:automatic-styles>
+
+<office:master-styles>
+<default_master/>
+
+  <style:master-page style:name="Standard" style:page-layout-name="my_default_pagelayout">
+    <style:header>
+      <text:p text:style-name="Header">
+        <draw:custom-shape text:anchor-type="paragraph"
+                           draw:z-index="0"
+                           draw:name="Rectangle 8"
+                           draw:style-name="my_header_decoration_1"
+                           draw:text-style-name="my_header_decoration_1_text"
+                           svg:width="8.603cm"
+                           svg:height="0.553cm"
+                           svg:x="16.796cm"
+                           svg:y="-5.001cm">
+          <text:p>
+            <text:span text:style-name="my_header_text_1"> <text:s text:c="51"/> </text:span>
+            <text:span text:style-name="my_header_text_1">www.pzhsteel.com.cn</text:span>
+          </text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600"
+                                  draw:type="rectangle"
+                                  draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+      </text:p>
+    </style:header>
+
+    <style:footer>
+      <text:p text:style-name="my_default_footer">
+        <text:page-number text:select-page="current">1</text:page-number>
+      </text:p>
+    </style:footer>
+  </style:master-page>
+
+  <style:master-page style:name="FirstPage"
+                     style:display-name="First Page"
+                     style:page-layout-name="my_title_page_layout"
+                     style:next-style-name="Standard"/>
+
+</office:master-styles>
+</office:document-styles>

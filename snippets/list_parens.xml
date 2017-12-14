@@ -1,0 +1,43 @@
+<!-- Parenthese List -->
+<text:list-style style:name="OrgNumberedParentheseList">
+  <text:list-level-style-number text:level="1"
+                                style:num-prefix="("
+                                style:num-suffix=")"
+                                style:num-format="1">
+    <style:list-level-properties text:min-label-width="0.64cm"/>
+  </text:list-level-style-number>
+  <text:list-level-style-number text:level="2"
+                                style:num-prefix="("
+                                style:num-suffix=")"
+                                style:num-format="1">
+    <style:list-level-properties text:space-before="1.27cm"
+                                 text:min-label-width="0.635cm"/>
+  </text:list-level-style-number>
+  <text:list-level-style-number text:level="3"
+                                style:num-prefix="("
+                                style:num-suffix=")"
+                                style:num-format="1">
+    <style:list-level-properties text:space-before="1.905cm"
+                                 text:min-label-width="0.635cm"/>
+  </text:list-level-style-number>
+  <text:list-level-style-number text:level="4"
+                                style:num-prefix="("
+                                style:num-suffix=")"
+                                style:num-format="1">
+    <style:list-level-properties text:space-before="2.54cm"
+                                 text:min-label-width="0.635cm"/>
+  </text:list-level-style-number>
+  <text:list-level-style-number text:level="5"
+                                style:num-prefix="("
+                                style:num-suffix=")"
+                                style:num-format="1">
+    <style:list-level-properties text:space-before="3.175cm"
+                                 text:min-label-width="0.635cm"/>
+  </text:list-level-style-number>
+  <text:list-level-style-number text:level="6"
+                                style:num-prefix="("
+                                style:num-suffix=")"
+                                style:num-format="1">
+    <style:list-level-properties text:space-before="3.81cm" text:min-label-width="0.635cm"/>
+  </text:list-level-style-number>
+</text:list-style>
